@@ -1,0 +1,18 @@
+@import "src/style.constants";
+
+.auth-button {
+  margin-left: 59px;
+  padding: 6px 60px;
+  height: auto;
+  background-color: $white-100;
+  outline: none;
+  border: 2px solid $orange-red;
+  border-radius: 7px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: $orange-red;
+}

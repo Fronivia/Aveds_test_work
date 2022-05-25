@@ -1,0 +1,16 @@
+@import "src/style.constants";
+
+.nav-item {
+
+  text-decoration: none;
+  outline: none;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+
+  color: $dim-grey;
+}

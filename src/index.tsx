@@ -1,11 +1,16 @@
-// import styles from './index.module.css';
 import React from 'react';
-import {render} from 'react-dom';
-import App from './components/App';
+import { render } from 'react-dom';
+import App from './components/App/App';
 import './index.scss';
+import { BrowserRouter } from "react-router-dom";
 
+const app = (
+    <BrowserRouter>
+        <App/>
+    </BrowserRouter>
+);
 
 render(
-    <App/>,
+    app,
     document.getElementById('root'),
 );

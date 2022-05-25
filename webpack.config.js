@@ -63,8 +63,18 @@ module.exports = {
                 ],
             },
             {
-                test: /\.(jpg|jpeg|png|svg)/,
+                test: /\.(jpg|jpeg|png)/,
                 use: ["file-loader"]
+            },
+            {
+                test: /\.svg$/i,
+                issuer: /\.[jt]sx?$/,
+                use: [{
+                    loader: '@svgr/webpack',
+                    options: {
+                        typescript: true,
+                    },
+                }],
             },
             {
                 test: /\.m?jsx$/,
@@ -91,7 +101,9 @@ module.exports = {
     resolve: {
         extensions: ['.tsx', '.ts', '.js'],
         alias: {
-            "@components": path.resolve(__dirname, "src/components")
+            "@components": path.resolve(__dirname, "src/components"),
+            "@assets": path.resolve(__dirname, "src/assets"),
+            "@src": path.resolve(__dirname, "src"),
         }
     }
 }
