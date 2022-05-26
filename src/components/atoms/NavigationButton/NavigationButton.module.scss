@@ -1,0 +1,27 @@
+@import "src/style.constants";
+
+.navigation-button {
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+
+  color: $white-100;
+  background-color: $orange-red;
+  border: 1px solid $orange-red;
+
+  outline: none;
+
+  & + & {
+    margin-left: 10px;
+  }
+}
+
+.filled-navigation-button {
+  color: $orange-red;
+  background-color: $white-100;
+}

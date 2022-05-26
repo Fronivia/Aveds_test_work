@@ -1,0 +1,59 @@
+@import "src/style.constants";
+
+.medic-card {
+  width: 328px;
+  padding: 35px 40px;
+
+  background: $white-100;
+
+  box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
+
+  & + & {
+    margin-left: 30px;
+  }
+
+  & > :not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.red-circle {
+  background-color: $coral-100;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-name {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  letter-spacing: 0.1px;
+
+  color: $dark-blue;
+}
+
+.separator {
+  width: 50px;
+  height: 2px;
+
+  background: $coral-100;
+}
+
+.service-description {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  letter-spacing: 0.2px;
+  color: $dim-grey;
+}
