@@ -18,3 +18,10 @@
   align-items: center;
 }
 
+@media (max-width: 800px) {
+  .header-container {
+    min-width: 355px;
+    width: 355px;
+    padding: 0;
+  }
+}

@@ -1,10 +1,10 @@
 @import "src/style.constants";
 
-.greetings {
-  margin-top: 96.5px;
+.contacts {
+  margin-top: 184.5px;
 }
 
-.greetings-header {
+.contacts-header {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -12,17 +12,16 @@
   line-height: 80px;
 
   letter-spacing: 0.2px;
-  color: $dark-blue;
 
-  margin-bottom: 35px;
+  color: $dark-blue;
 }
 
 @media (max-width: 1440px) {
-  .greetings {
+  .contacts {
     margin-top: 55.5px;
   }
 
-  .greetings-header {
+  .contacts-header {
     font-size: 28px;
     line-height: 39px;
 
