@@ -8,7 +8,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.1px;
 
   color: $white-100;
   background-color: $orange-red;
@@ -24,4 +24,10 @@
 .filled-navigation-button {
   color: $orange-red;
   background-color: $white-100;
+}
+
+@media (max-width: 1440px) {
+  .navigation-button {
+    max-width: 150px;
+  }
 }

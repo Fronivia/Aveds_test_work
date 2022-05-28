@@ -5,3 +5,9 @@ export interface ICardsInformation {
     text: string,
     key: number
 }
+
+export enum FormTypes {
+    TEXT = "text",
+    PASSWORD = "password"
+}
+

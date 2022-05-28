@@ -1,7 +1,7 @@
 @import "src/style.constants";
 
-.greetings {
-  margin-top: 96.5px;
+.greetings-to-anon {
+  margin-top: 141px;
 }
 
 .greetings-header {
@@ -10,15 +10,15 @@
   font-weight: 700;
   font-size: 58px;
   line-height: 80px;
-
   letter-spacing: 0.2px;
+
   color: $dark-blue;
 
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 1440px) {
-  .greetings {
+  .greetings-to-anon {
     margin-top: 55.5px;
   }
 

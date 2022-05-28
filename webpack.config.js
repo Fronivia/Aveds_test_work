@@ -5,12 +5,15 @@ const HTMLWebpackPlugin = require("html-webpack-plugin")
 module.exports = {
     mode: "development",
     entry: ["@babel/polyfill", "./src/index.tsx"],
+    devtool: "inline-source-map",
     output: {
         path: path.resolve(__dirname,"dist"),
         filename: "[name].[hash].js",
+        publicPath: '/'
     },
     devServer: {
-        port: 3000
+        port: 3000,
+        historyApiFallback: true,
     },
     plugins: [
         new HTMLWebpackPlugin({template: "./src/index.html"}),

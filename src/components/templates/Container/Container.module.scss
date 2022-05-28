@@ -3,3 +3,12 @@
   height: 500px;
   padding: 0 197px;
 }
+
+@media (max-width: 1440px) {
+  .container {
+    width: 350px;
+    min-width: 350px;
+    height: auto;
+    padding: 0;
+  }
+}

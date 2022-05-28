@@ -27,7 +27,7 @@
         "linebreak-style": ["off"],
         "operator-linebreak": ["error", "before"],
         "indent": ["error", 4, { "SwitchCase": 1 }],
-        "max-len": ["error", { "code": 80 }],
+        "max-len": ["error", { "code": 90 }],
         "require-jsdoc": "off",
         "no-trailing-spaces": 0,
         "object-curly-spacing" : ["error", "always"],

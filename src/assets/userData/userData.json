@@ -1,0 +1,12 @@
+{
+  "0": {
+    "login": "Artem",
+    "password": "12345678",
+    "name": "Артём"
+  },
+  "1": {
+    "login": "Sergey",
+    "password": "password",
+    "name": "Сергей"
+  }
+}

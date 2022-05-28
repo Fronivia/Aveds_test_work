@@ -15,4 +15,13 @@
   font-size: 20px;
   line-height: 24px;
   color: $orange-red;
+
+}
+
+@media (max-width: 800px) {
+  .auth-button {
+    padding: 6px 18px;
+    margin-left: 10px;
+    letter-spacing: -0.8px;
+  }
 }
