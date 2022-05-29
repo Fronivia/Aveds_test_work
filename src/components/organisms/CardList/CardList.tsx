@@ -18,7 +18,7 @@ export const CardList: React.FC = () => {
         <article className={clsx(styles.medicCardContainer)}>
             {
                 cardsInformation.map(({ key, ...props } ) => (
-                    <MedicCard key={key} {...props}/>
+                    <MedicCard key={key} {...props} />
                 ))
             }
         </article>

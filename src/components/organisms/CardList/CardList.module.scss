@@ -7,7 +7,7 @@
 @media (max-width: 1440px) {
   .medic-card-container {
     margin-top: 28px;
-    display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
   }
 }

@@ -61,7 +61,12 @@
 }
 
 @media (max-width: 1440px) {
-  .medic-card + .medic-card {
-    margin-top: 30px;
+  .medic-card {
+    margin-bottom: 30px;
+  }
+
+  .medic-card:nth-child(2) {
+    order: -3;
+    margin-bottom: 0;
   }
 }
